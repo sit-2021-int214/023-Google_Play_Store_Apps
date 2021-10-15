@@ -11,7 +11,7 @@ library(stringr)    # Character manipulation
 library(assertive)  # Readable check functions to ensure code integrity
 
 # Dataset
-ggp <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/023-Google_Play_Store_Apps/main/Google_Play_Store_Apps_Original.csv")
+ggp <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/023-Google_Play_Store_Apps/main/term%20assignment/Midterm/Original%20Data/Google_Play_Store_Apps_Original.csv")
 
 # Cleaning Data
 ## Remove Duplicate Data && remove Free Applications;
