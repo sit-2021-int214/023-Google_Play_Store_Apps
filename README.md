@@ -9,8 +9,8 @@ eieieieieieieieieiei
 // Write Statement here
 ทกลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
 สิ่งที่อยากรู้ : <br>
-- aaaa<br>
-- sdad<br>
+- หายอดดาวน์โหลดของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5<br>
+- Rating ของแอปพลิเคชั่นที่มีราคา<br>
 - asd<br>
 - xfgh<br>
 
