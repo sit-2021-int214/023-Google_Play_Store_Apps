@@ -38,8 +38,8 @@ eieieieieieieieieiei
 ### Important Files in Repository
 
 - [Google Play Store Apps](./Google_Play_Store_Apps.R) : Exploratory Data Analysis
-- [Google Play Store Apps_Original](./Google_Play_Store_Apps_Original.xlsx): Original Dataset
-- [Google Play Store Apps_Clean](./Google_Play_Store_Apps_Clean.xlsx): Clean Dataset
+- [Google Play Store Apps_Original](./Google_Play_Store_Apps_Original.csv): Original Dataset
+- [Google Play Store Apps_Clean](./Google_Play_Store_Apps_Clean.csv): Clean Dataset
 
 ### References
 
