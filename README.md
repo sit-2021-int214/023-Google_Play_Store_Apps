@@ -37,8 +37,8 @@ eieieieieieieieieiei
 
 ### Important Files in Repository
 
-- [Google Play Store Apps](./Google_Play_Store_Apps.r) : Exploratory Data Analysis
-- [Google Play Store Apps_Original]("./term assignment/Midterm/Original/Google_Play_Store_Apps_Original.csv"): Original Dataset
+- [Google Play Store Apps](./term%20assignment/Midterm/Clean%20Data/Google_Play_Store_Apps.r) : Exploratory Data Analysis
+- [Google Play Store Apps_Original](./term%20assignment/Midterm/Original%20Data/Google_Play_Store_Apps_Original.csv): Original Dataset
 - [Google Play Store Apps_Clean](./Google_Play_Store_Apps_Clean.csv): Clean Dataset
 
 ### References
