@@ -7,3 +7,5 @@ min(cats$Hwt)
 # Using dplyr
 cats %>% dplyr::select(Hwt) %>% min()
 ```
+
+ex
