@@ -28,4 +28,4 @@ $ Android.Ver    <chr> "4.0.3 and up", "4.0.3 and up", "4.0.3 and up", "4.2 and 
 Explain
 
 - จะเห็นว่ามีข้อมูลอยู่ 13 column
-- มีตัวแปรชื่อ DBN,school_name,math_score,reading_score,writing_score
+- มีตัวแปรชื่อ App
