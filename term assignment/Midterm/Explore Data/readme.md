@@ -7,6 +7,8 @@ Dataset from [Google_Play_Store_Apps_Original.csv](https://raw.githubusercontent
 glimpse(sat_score)
 ```
 
+Result:
+
 ```
 Rows: 10,841
 Columns: 13
