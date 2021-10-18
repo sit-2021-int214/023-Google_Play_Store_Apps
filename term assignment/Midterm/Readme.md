@@ -6,12 +6,12 @@
 
 ## Question 1: หายอดดาวน์โหลดของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 ?
 ```
-code r rrrrrr
+max(ggp %>% filter(Price == 0) %>% select(Reviews),na.rm = TRUE)
 ```
 Result:
 
 ```
-result after run code
+78158306
 ```
 - Summary <br>
 เนื่องจากหกเเ เลยจะทำอะ สงสัย
@@ -27,12 +27,21 @@ Result:
 อธิบายค่าาาาาาาาาาาาา
 ## Question 3: หาแอปพลิเคชั่นที่มียอดรีวิวสูงสุดของกลุ่มฟรีและที่มีราคา?
 ```
-
+ggp %>% filter(Reviews == max(ggp %>% filter(Price == 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
 ```
 Result:
-
 ```
+       App  Reviews
+1 Facebook 78158306
+```
+```
+ggp %>% filter(Reviews == max(ggp %>% filter(Price != 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
+```
+Result:
+```
+        App Reviews
+1 Minecraft 2376564
 ```
 - Summary <br>
-อธิบายค่าาาาาาาาาาาาา
+แอปพลิเคชั่นกลุ่มฟรีที่มียอดรีวิวสูงสุดคิอ Facebook ส่วนแอปพลิเคชั่นเสียเงินที่มียอดรีวิวสูงสุดคือเกม Minecraft
 
