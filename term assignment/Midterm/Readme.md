@@ -6,11 +6,12 @@
 
 ## Question 1: หายอดดาวน์โหลดของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 ?
 ```
-
+code r rrrrrr
 ```
 Result:
 
 ```
+result after run code
 ```
 - Summary <br>
 เนื่องจากหกเเ เลยจะทำอะ สงสัย
