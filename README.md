@@ -16,7 +16,7 @@ eieieieieieieieieiei
 
 ### Steps
 1. Define a question
-2. Loading Library and dataset
+2. [Loading Library and dataset](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/blob/main/term%20assignment/Midterm/Original%20Data/readme.md#loading-library-and-dataset)
 3. Observe Data
 5. Cleaning Data
 6. Answer to all defined question
