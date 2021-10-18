@@ -15,7 +15,7 @@ eieieieieieieieieiei
 - xfgh<br>
 
 ### Steps
-1. [Define a question](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/tree/main/term%20assignment/Midterm#answer-to-all-defined-question)
+1. [Define a question](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/blob/main/README.md#objective)
 2. [Loading Library and dataset](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/blob/main/term%20assignment/Midterm/Original%20Data#loading-library-and-dataset)
 3. [Observe Data](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/blob/main/term%20assignment/Midterm/Explore%20Data#explore-data)
 5. [Cleaning Data](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/blob/main/term%20assignment/Midterm/Explore%20Data#explore-data)
