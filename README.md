@@ -16,10 +16,10 @@ eieieieieieieieieiei
 
 ### Steps
 1. Define a question
-2. Observe Data
-3. Loading Library and dataset
-4. Cleaning Data
-5. Answer to all defined question
+2. Loading Library and dataset
+3. Observe Data
+5. Cleaning Data
+6. Answer to all defined question
 
 ### Tools
 
