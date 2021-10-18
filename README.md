@@ -30,7 +30,7 @@ eieieieieieieieieiei
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](./01_explore.md)
+1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/blob/main/term%20assignment/Midterm/Readme.md)
 2. [Data Visualization]()
 
 ## Resources
