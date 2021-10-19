@@ -47,13 +47,21 @@ Result:
 
 ## Question 4: หาฐานนิยมของ Genres ?
 ```
+my_mode <- function(x) {                     # Create mode function 
+  unique_x <- unique(x)
+  tabulate_x <- tabulate(match(x, unique_x))
+  unique_x[tabulate_x == max(tabulate_x)]
+}
 
+my_mode(ggp$Genres)
+Mode(ggp$Genres)
 ```
 Result:
 
 ```
-
+Tools
+842
 ```
 - Summary <br>
-เนื่องจากหกเเ เลยจะทำอะ สงสัย
+Genre แอปพลิเคชั่นที่มีจำนวนเยอะที่สุดคือ Tools มีจำนวนแอปพลิเคชั่น 842
 
