@@ -3,14 +3,15 @@
 Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 
 ### About's Google Play Store Apps Datasets
-้ก้ะ้กพะ้กพะ้พ้ะก้พ ะ้ะ้กะ้ะก้ะ้ะ้พะ้ะพ้พ้พ้ะกพะ้พกะ้พะก้พ้
+้The Google Play Store Apps is very diverse. In terms of price, reviews, content ratings, genres, and more, we want to bring interesting information to everyone.
+We all desire to use an app with the best features.
 
 ## Objective
 // Write Statement here
 กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
 สิ่งที่อยากรู้ : <br>
-- หาจำนวนของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 เทียบกับแอปพลิเคชั่นทั้งหมด
-- หาRating ของแอปพลิเคชั่นที่มีราคา
+- หาจำนวนของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 เทียบกับแอปพลิเคชั่นทั้งหมด ?
+- หา Min, 1st Qualtile, Median, Mean, 3rd Qualtile ของ Rating ของแอปพลิเคชั่นที่มีราคา ?
 - หาแอปพลิเคชั่นที่มียอดรีวิวสูงสุดของกลุ่มฟรีและที่มีราคา
 - หาฐานนิยมของ Genres ?
 
@@ -44,8 +45,7 @@ Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 - [Google Play Store Apps_Clean](./Google_Play_Store_Apps_Clean.csv): Clean Dataset
 
 ### References
-
-// Link
+- [Google Play Store Apps Dataset](https://www.kaggle.com/lava18/google-play-store-apps)
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
