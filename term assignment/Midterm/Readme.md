@@ -17,16 +17,29 @@ Result:
 ```
 - Summary <br>
 แอปพลิเคชั่นที่มี Rating มากกว่า 4.5 มีเพียง 2956 จาก 10841 แอปพลิเคชั่นตัวอย่าง
-## Question 2: ค่าเฉลี่ย Rating ของแอปพลิเคชั่นที่มีราคา ?
+## Question 2: หา Min, 1st Qualtile, Median, Mean, 3rd Qualtile ของ Rating  ของแอปพลิเคชั่นที่มีราคา ?
 ```
-
+ggp %>% na.omit(Rating) %>% filter(Price != 0) %>% select(Rating)%>% summary()
 ```
 Result:
 
 ```
+     Rating     
+ Min.   :1.000  
+ 1st Qu.:4.100  
+ Median :4.400  
+ Mean   :4.262  
+ 3rd Qu.:4.600  
+ Max.   :5.000  
 ```
 - Summary <br>
-อธิบายค่าาาาาาาาาาาาา
+แอปพลิเคชั่นที่มีค่าใช้จ่าย  -มีค่าน้อยสุดที่มีของ Rating คือ 1
+                     -1st Qualtile ของ Rating คือ 4.1
+                     -มัธยฐาน ของ Rating คือ 4.4
+                     -ค่าเฉลี่ยของ Rating คือ 4.262
+                     -3rd Qualtile ของ Rating คือ 4.6
+                     -ค่าสูงสุดของ Rating คือ 5
+
 ## Question 3: หาแอปพลิเคชั่นที่มียอดรีวิวสูงสุดของกลุ่มฟรีและที่มีราคา?
 ```
 ggp %>% filter(Reviews == max(ggp %>% filter(Price == 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
