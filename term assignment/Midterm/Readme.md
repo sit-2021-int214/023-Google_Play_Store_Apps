@@ -6,12 +6,12 @@
 
 ## Question 1: หายอดดาวน์โหลดของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 ?
 ```
-max(ggp %>% filter(Price == 0) %>% select(Reviews),na.rm = TRUE)
+
 ```
 Result:
 
 ```
-78158306
+
 ```
 - Summary <br>
 เนื่องจากหกเเ เลยจะทำอะ สงสัย
@@ -52,7 +52,7 @@ Result:
 Result:
 
 ```
-78158306
+
 ```
 - Summary <br>
 เนื่องจากหกเเ เลยจะทำอะ สงสัย
