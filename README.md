@@ -7,12 +7,12 @@ Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 
 ## Objective
 // Write Statement here
-ทกลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
+กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
 สิ่งที่อยากรู้ : <br>
-- หายอดดาวน์โหลดของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5<br>
-- Rating ของแอปพลิเคชั่นที่มีราคา<br>
-- asd<br>
-- xfgh<br>
+- หาจำนวนของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 เทียบกับแอปพลิเคชั่นทั้งหมด
+- หาRating ของแอปพลิเคชั่นที่มีราคา
+- หาแอปพลิเคชั่นที่มียอดรีวิวสูงสุดของกลุ่มฟรีและที่มีราคา
+- หาฐานนิยมของ Genres ?
 
 ### Steps
 1. [Define a question](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/blob/main/README.md#objective)
@@ -30,8 +30,10 @@ Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/blob/main/term%20assignment/Midterm/Readme.md)
-2. [Data Visualization]()
+1. [Exploratory Data Analysis](./term%20assignment/Midterm/Explore%20Data)
+2. [Cleaning Data](./term%20assignment/Midterm/Cleaning%20Data)
+3. [Original Data](./term%20assignment/Midterm/Original%20Data)
+4. [Data Visualization]()
 
 ## Resources
 
