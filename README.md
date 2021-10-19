@@ -33,7 +33,7 @@ Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 1. [Exploratory Data Analysis](./term%20assignment/Midterm/Explore%20Data)
 2. [Cleaning Data](./term%20assignment/Midterm/Cleaning%20Data)
 3. [Original Data](./term%20assignment/Midterm/Original%20Data)
-4. [Data Visualization]()
+4. [Data Visualization]()`Final Assignment`
 
 ## Resources
 
