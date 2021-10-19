@@ -3,7 +3,7 @@
 Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 
 ### About's Google Play Store Apps Datasets
-้The Google Play Store Apps is very diverse. In terms of price, reviews, content ratings, genres, and more, we want to bring interesting information to everyone.
+The Google Play Store Apps is very diverse. In terms of price, reviews, content ratings, genres, and more, we want to bring interesting information to everyone.
 We all desire to use an app with the best features.
 
 ## Objective
