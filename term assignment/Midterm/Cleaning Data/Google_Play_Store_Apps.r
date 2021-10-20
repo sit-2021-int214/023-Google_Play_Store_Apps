@@ -20,7 +20,7 @@ ggp %>% filter(duplicated(ggp))
 ggp <- distinct(ggp)
 ggp <- ggp %>% distinct()
 ggp %>%  filter(Price != 0)  %>% select(App,Price)
-## Change Reviews, Price, Installs datatype from chr to numeric
+## Change Reviews, Price datatype from chr to numeric
 
 ggp$Reviews <- ggp$Reviews %>% as.numeric
 ggp$Price <- parse_number(ggp$Price)
