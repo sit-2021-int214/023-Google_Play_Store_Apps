@@ -89,7 +89,7 @@ books %>% filter(duplicated(books))
 
 ## Part 3: Transform data with dplyr and finding insight the data
 
-1.ชื่อหนังสือที่มียอดรีวิวมกกว่าเท่ากับ 600 แต่ไม่เกิน 1000ไม่เกิน1000
+1.ชื่อหนังสือที่มียอดรีวิวมากกว่าเท่ากับ 600 แต่ไม่เกิน 1000ไม่เกิน1000
 
 ```
 book %>%
