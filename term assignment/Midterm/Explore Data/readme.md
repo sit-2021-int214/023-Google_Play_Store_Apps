@@ -4,7 +4,7 @@ Dataset from [Google_Play_Store_Apps_Original.csv](https://raw.githubusercontent
 ## How many observation of this dataset (before cleaning) ?
 
 ```
-glimpse(sat_score)
+glimpse(ggp)
 ```
 
 Result:
