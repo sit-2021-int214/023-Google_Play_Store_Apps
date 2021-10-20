@@ -89,37 +89,36 @@ books %>% filter(duplicated(books))
 
 ## Part 3: Transform data with dplyr and finding insight the data
 
-1.ชื่อหนังสือที่มียอดรีวิวมากกว่าเท่ากับ 600 แต่ไม่เกิน 1000ไม่เกิน1000
+1.แสดงชื่อหนังสือและเรตติ้งของหนังสือที่มีเรตติ้งน้อยที่สุด
 
 ```
-book %>%
-  filter(Reviews >= 600,Reviews < 1000) %>%
-  select(Reviews,Book_title) %>%
-  arrange(Book_title)
-
+books %>% 
+  filter(Rating == min(
+    books %>% select(Rating),na.rm = TRUE)) %>% select(Book_title, Rating)
 ```
 
-Result: แสดงชื่อหนังสือและยอดรีวิวที่มียอดรีวิวตั้งแต่ 600 ถึง 1000
+Result: ชื่อหนังสือและเรตติ้งของหนังสือที่มีเรตติ้งน้อยที่สุด
 
 ```
-  Reviews                                                              Book_title
-1     676 Big Data: A Revolution That Will Transform How We Live, Work, and Think
-2     875                  Clean Code: A Handbook of Agile Software Craftsmanship
-3     746                  The Mythical Man-Month: Essays on Software Engineering
-```
-2.หนังสือเล่มไหนมีจำนวนหน้า
+Book_title Rating
+1                                       Advanced Game Programming: A Gamedev.Net Collection      3
+2 Cross-Platform Game Programming (Game Development) (Charles River Media Game Development)      3
+3                                   Lambda-Calculus, Combinators and Functional Programming      3
 
 ```
-book %>% 
-  filter(Number_Of_Pages == max(Number_Of_Pages)) %>% 
-  select(Book_title,Number_Of_Pages)
-```
-
-Result: แสดงชื่อหนังสือและจำนวนหน้าของหนังสือที่มีจำนวนหน้ามากที่สุด
+2.หนังสือเล่มไหนมีราคาถูกที่สุด
 
 ```
-                                               Book_title Number_Of_Pages
-1 The Art of Computer Programming, Volumes 1-4a Boxed Set            3168
+books %>% 
+  filter(Price == min(Price)) %>% 
+  select(Book_title,Price)
+```
+
+Result: แสดงชื่อหนังสือและราคาของหนังสือที่ถูกที่สุด
+
+```
+             Book_title    Price
+1 The Elements of Style 9.323529
 ```
 
 3.มีหนังสือประเภทอะไรบ้าง
