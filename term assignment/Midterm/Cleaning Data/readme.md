@@ -61,3 +61,9 @@ ggp$Price <- parse_number(ggp$Price)
 ```
 - เปลี่ยนรีวิว จาก chr เป็นตัวเลข เพื่อนำไปใช้คำนวณต่อ
 - เปลี่ยนราคา จาก chr เป็นตัวเลข เพื่อนำไปใช้คำนวณต่อ
+
+## Step 8: Export to CSV file
+```
+write.csv(ggp,"./CleaningData.csv")
+```
+- นำไฟล์ที่ทำการ Cleaning เสร็จแล้วมา Export เป็นไฟล์ CSV
