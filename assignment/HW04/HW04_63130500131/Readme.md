@@ -23,7 +23,9 @@ library(readr)
 books <- read.csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv")
 ```
 In this dataset has
-
+```
+glimpse(books)
+```
 ```
 Rows: 271
 Columns: 7
@@ -35,14 +37,22 @@ $ Number_Of_Pages <int> 105, 527, 50, 393, 305, 288, 256, 368, 259, 128, 352, 35
 $ Type            <chr> "Hardcover", "Hardcover", "Kindle Edition", "Hardcover", "Kindle Edition", "Paperback", "Hardcover", "Hardcover", ~
 $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14.188235, 14.232353, 14.364706, 14.502941, 14.641176, 15.22~
 ```
-1.เช็คว่ามีค่า null ในตัว dataset ไหม
+1.เช็คว่ามีข้อมูลซ้ำกันไหม
+```
+books %>% filter(duplicated(books))
+```
+```
+<0 rows> (or 0-length row.names)
+```
+ไม่มีข้อมูลซ้ำกัน
 
+2.เช็คว่ามีค่า null ในตัว dataset ไหม
 ```
 is.na(books)
 ```
 ไม่มีข้อมูลใน dataset ที่เป็น null
 
-2.สำรวจข้อมูลเบื้องต้น
+3.สำรวจข้อมูลเบื้องต้น
 
 ```
 summary(books)
