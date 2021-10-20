@@ -4,7 +4,7 @@ Dataset from [Google_Play_Store_Apps_Original.csv](https://raw.githubusercontent
 ## How many observation of this dataset (before cleaning) ?
 
 ```
-glimpse(ggp)
+glimpse(sat_score)
 ```
 
 Result:
@@ -31,16 +31,16 @@ Explain
 
 จะเห็นว่ามีข้อมูลอยู่ 10,841 obeservation
 และมีตัวแปร 13 คอลัมน์
-- ตัวแปรชื่อแอปพลิเคชั่น
-- หมวดหมูแอปพลิเคชั่น
-- คะแนน
-- จำนวนการวิจารณ์
-- ขนาด
-- จำนวนการติดตั้งแอปพลิเคชั่น(ครั้ง)
-- ลักษณะแอปพลิเคชั่น(ไม่มีค่าใช้จ่าย, มีค่าใช้จ่าย)
-- ราคา
-- ระดับความเหมาะสมของผู้ใช้
-- ประเภทแอปพลิเคชั่น
-- อัปเดตครั้งล่าสุด
-- เวอร์ชั่นปัจจุบัน
-- Android เวอร์ชั่น
+- APP(chr) ตัวแปรชื่อแอปพลิเคชั่น
+- Category(chr) หมวดหมูแอปพลิเคชั่น
+- Rating(dbl) คะแนน
+- Reviews(chr) จำนวนการวิจารณ์
+- Size(chr) ขนาด
+- Installs(chr) จำนวนการติดตั้งแอปพลิเคชั่น(ครั้ง)
+- Type(chr) ลักษณะแอปพลิเคชั่น(ไม่มีค่าใช้จ่าย, มีค่าใช้จ่าย)
+- Price(chr) ราคา
+- Content.Rating(chr) ระดับความเหมาะสมของผู้ใช้
+- Genres(chr) ประเภทแอปพลิเคชั่น
+- Last.Updated(chr) อัปเดตครั้งล่าสุด
+- Current.Ver(chr) เวอร์ชั่นปัจจุบัน
+- Android.Ver(chr) Android เวอร์ชั่น
