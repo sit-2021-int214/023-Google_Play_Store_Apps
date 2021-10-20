@@ -1,6 +1,6 @@
 # R-Assignment 4
 
-**Created by Kanphong Srisutapat (ID: 63130500099)**
+**Created by Rapeepat Klamjeen (ID: 63130500099)**
 
 Choose Dataset:
 1. Top 270 Computer Science / Programing Books (Data from Thomas Konstantin, [Kaggle](https://www.kaggle.com/thomaskonstantin/top-270-rated-computer-science-programing-books)) >> [Using CSV](https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv)
@@ -204,7 +204,7 @@ Result: แสดงค่าสูงสุดของหนังสือ
 ```
 Result:
 
-![scat_plot0](scat_plot0.png)
+![scat_plot0]()
 
 ### 2.) The chart shows the number of types.
 
@@ -215,5 +215,5 @@ Result:
 ```
 Result:
 
-![bar](bar.png)
+![bar]()
 
