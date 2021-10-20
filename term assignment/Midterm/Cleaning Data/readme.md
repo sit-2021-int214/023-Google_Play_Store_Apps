@@ -14,5 +14,5 @@ ggp$Reviews <- ggp$Reviews %>% as.numeric
 ggp$Price <- parse_number(ggp$Price)
 ggp$Installs <- parse_number(ggp$Installs)
 ```
-- เปลี่ยนรีวิว,ราคา
-- ติดตั้งชนิดข้อมูลจาก chr เป็นตัวเลข 
+- เปลี่ยนรีวิว, ราคา จาก chr เป็นตัวเลข เพื่อนำไปใช้คำนวณต่อ
+- จำนวนการติดตั้ง จาก chr เป็นตัวเลข เพื่อนำไปใช้คำนวณต่อ
