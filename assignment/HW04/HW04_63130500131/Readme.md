@@ -188,7 +188,7 @@ plot
 ```
 Result:
 
-![plot](images/plot.png)
+![plot](images/Plot.png)
 
 ### 2.) Count in each type of books.
 
