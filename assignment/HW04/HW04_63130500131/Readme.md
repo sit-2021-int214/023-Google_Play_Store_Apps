@@ -121,23 +121,19 @@ Result: แสดงชื่อหนังสือและราคาขอ
 1 The Elements of Style 9.323529
 ```
 
-3.มีหนังสือประเภทอะไรบ้าง
+3.ค่าเฉลี่ยเรตติ้งของราคาหนังสือที่มากกว่า 14
 
 ```
-book %>%
-  distinct(Type)
+books %>%
+  filter(Price > 14) %>%
+  summarise(mean = mean(Rating))
 ```
 
-Result: แสดงประเภทของหนังสือ
+Result: แสดงค่าเฉลี่ยหนังสือ
 
 ```
-                   Type
-1             Hardcover
-2        Kindle Edition
-3             Paperback
-4                 ebook
-5       Unknown Binding
-6 Boxed Set - Hardcover
+      mean
+1 4.070414
 ```
 
 4.มีหนังสือกี่ประเภทโดยที่แต่ล่ะประเภทมี่กี่จำนวน
