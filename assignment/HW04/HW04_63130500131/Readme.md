@@ -187,9 +187,9 @@ plot <- books %>%
 plot
 ```
 Result:
-```
+
 ![plot](images/Plot.png)
-```
+
 ### 2.) Count in each type of books.
 
 ```
@@ -198,6 +198,6 @@ bar <- books %>%
 bar
 ```
 Result:
-```
+
 ![bar](images/bar.png)
-```
+
