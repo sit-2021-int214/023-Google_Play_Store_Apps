@@ -7,7 +7,7 @@ The Google Play Store Apps is very diverse. In terms of price, reviews, content 
 We all desire to use an app with the best features.
 
 ## Objective
-// Write Statement here
+
 กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
 สิ่งที่อยากรู้ : <br>
 - หาจำนวนของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 เทียบกับแอปพลิเคชั่นทั้งหมด ?
