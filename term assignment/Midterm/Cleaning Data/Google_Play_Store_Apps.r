@@ -24,7 +24,6 @@ ggp %>%  filter(Price != 0)  %>% select(App,Price)
 
 ggp$Reviews <- ggp$Reviews %>% as.numeric
 ggp$Price <- parse_number(ggp$Price)
-ggp$Installs <- parse_number(ggp$Installs)
 
 
 glimpse(ggp)
