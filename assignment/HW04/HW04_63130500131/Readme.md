@@ -136,37 +136,32 @@ Result: แสดงค่าเฉลี่ยหนังสือ
 1 4.070414
 ```
 
-4.มีหนังสือกี่ประเภทโดยที่แต่ล่ะประเภทมี่กี่จำนวน
+4.แสดงจำนวนหน้าของหนังสือที่มีหน้ามากที่สุดและน้อยที่สุด
 
 ```
-book$Type %>%
-  table()
+books %>% filter(Number_Of_Pages == max(books$Number_Of_Pages) | Number_Of_Pages == min(books$Number_Of_Pages)) %>% select(Number_Of_Pages) %>% table()
 ```
 
-Result: แสดงชื่อประเภทของหนังสือและจำนวนขอชนิดหนังสือโดยที่แยกจำนวนของแต่ล่ะประเภท
+Result: จำนวนหน้าของหนังสือที่มีหน้ามากที่สุดและน้อยที่สุด
 
 ```
-Boxed Set - Hardcover                 ebook             Hardcover        Kindle Edition             Paperback       Unknown Binding 
-                    1                     7                    95                    10                   156                     2 
+  50 3168 
+   1    1 
 ```
 
-5.แสดงจำนวนหน้าหนังสือและราคาของหนังสือที่มีราคามากกว่า 180 
+5.ค่าเฉลี่ยจำนวนหน้าหนังสือของหนังสือที่มีราคาต่ำกว่า 15
 
 ```
-book %>% 
-  filter(Price > 180) %>%
-  select(Number_Of_Pages,Price)
+books %>% 
+  filter(Price < 15) %>%
+  summarise(mean = mean(Number_Of_Pages))
 ```
 
 Result: แสดงจำนวนหน้าของหนังสือที่มีราคามากกว่า 180 และราคาที่เกิน 180
 
 ```
-  Number_Of_Pages    Price
-1             752 203.1088
-2            1040 212.0971
-3             896 220.3853
-4            3168 220.3853
-5             789 235.6500
+   mean
+1 267.9
 ```
 
 6.หาราคาสูงสุด ราคาต่ำสุด และราคาเฉลี่ยของหนังสือ
