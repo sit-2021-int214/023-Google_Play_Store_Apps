@@ -179,26 +179,25 @@ Result: จำนวนประเภททั้งหมด
 ```
 
 ## Part 4: Visualization with GGplot2
-### 1.) Graph relation between Rating and Reviews
-
+### 1.) Rating and Price(>20) Relaltions
 ```
- scat_plot0 <- book %>% 
- filter(Reviews <= 2000 ) %>% 
- ggplot(aes(x=Rating,y=Reviews)) + geom_point(aes(color=Type))
- scat_plot0
-```
-Result:
-
-![scat_plot0](scat_plot0.png)
-
-### 2.) The chart shows the number of types.
-
-```
- bar <- book %>% 
- ggplot(aes(x=Type)) + geom_bar(aes(color=Type))
- bar
+plot <- books %>% 
+  filter(Price >= 20 ) %>% 
+  ggplot(aes(x=Rating,y=Price)) + ggtitle("Rating and Price(>20) Relaltions") + geom_point(aes(color=Type))
+plot
 ```
 Result:
 
-![bar](bar.png)
+![plot](images/plot.png)
+
+### 2.) Count in each type of books.
+
+```
+bar <- books %>% 
+  ggplot(aes(y=Type)) + geom_bar(aes(color=Type))
+bar
+```
+Result:
+
+![bar](images/bar.png)
 
