@@ -42,6 +42,9 @@ $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14
 books %>% filter(duplicated(books))
 ```
 ```
+[1] Rating          Reviews         Book_title     
+[4] Description     Number_Of_Pages Type           
+[7] Price 
 <0 rows> (or 0-length row.names)
 ```
 ไม่มีข้อมูลซ้ำกัน
@@ -70,30 +73,19 @@ summary(books)
 
 ## Part 2: Learning function from Tidyverse
 
-- Function `filter()` It using for filter columns
+- Function `filter()` It is a function to filter what can be conditional.
 
 ```
-starwars %>% 
-  select(name,height) %>%
-  filter(height > 20)
+books %>% filter(duplicated(books))
 ```
 
 ```
-# A tibble: 81 x 2
-   name               height
-   <chr>               <int>
- 1 Luke Skywalker        172
- 2 C-3PO                 167
- 3 R2-D2                  96
- 4 Darth Vader           202
- 5 Leia Organa           150
- 6 Owen Lars             178
- 7 Beru Whitesun lars    165
- 8 R5-D4                  97
- 9 Biggs Darklighter     183
-10 Obi-Wan Kenobi        182
-# ... with 71 more rows
+[1] Rating          Reviews         Book_title     
+[4] Description     Number_Of_Pages Type           
+[7] Price 
+<0 rows> (or 0-length row.names)
 ```
+กรองดูข้อมูลที่ซ้ำกัน แต่ข้อมูลนี้ไม่มีข้อมูลที่ซ้ำกัน
 
 ## Part 3: Transform data with dplyr and finding insight the data
 
