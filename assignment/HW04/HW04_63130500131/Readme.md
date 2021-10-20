@@ -19,6 +19,7 @@ Choose Dataset:
 ```
 library(dplyr)
 library(readr)
+library(ggplot2)
 
 books <- read.csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv")
 ```
