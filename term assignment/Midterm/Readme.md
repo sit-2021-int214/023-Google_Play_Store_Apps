@@ -1,7 +1,7 @@
 # Answer to all defined question
 ## Questions
 1. [หาจำนวนของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 เทียบกับแอปพลิเคชั่นทั้งหมด ?](#question-1-%E0%B8%AB%E0%B8%B2%E0%B8%88%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%AD%E0%B8%9B%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5-rating-%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2-45-%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%AD%E0%B8%9B%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%94-)
-2. [หา Min, 1st Qualtile, Median, Mean, 3rd Qualtile ของ Rating  ของแอปพลิเคชั่นที่มีราคา ?](#question-2-%E0%B8%AB%E0%B8%B2-min-1st-qualtile-median-mean-3rd-qualtile-%E0%B8%82%E0%B8%AD%E0%B8%87-rating--%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%AD%E0%B8%9B%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-)
+2. [XXXXX]
 3. [หาแอปพลิเคชั่นที่มียอดรีวิวสูงสุดของกลุ่มฟรีและที่มีราคา](#question-3-%E0%B8%AB%E0%B8%B2%E0%B9%81%E0%B8%AD%E0%B8%9B%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%AA%E0%B8%B9%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%9F%E0%B8%A3%E0%B8%B5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2)
 4. [หาฐานนิยมของ Genres ?](#question-4-%E0%B8%AB%E0%B8%B2%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%87-genres-)
 ## Question 1: หาจำนวนของแอปพลิเคชั่นที่มี Rating มากกว่า 4.5 เทียบกับแอปพลิเคชั่นทั้งหมด ?
@@ -17,29 +17,7 @@ Result:
 ```
 - Summary <br>
 แอปพลิเคชั่นที่มี Rating มากกว่า 4.5 มีเพียง 2956 จาก 10841 แอปพลิเคชั่นตัวอย่าง
-## Question 2: หา Min, 1st Qualtile, Median, Mean, 3rd Qualtile ของ Rating  ของแอปพลิเคชั่นที่มีราคา ?
-```
-ggp %>% na.omit(Rating) %>% filter(Price != 0) %>% select(Rating)%>% summary()
-```
-Result:
-
-```
-     Rating     
- Min.   :1.000  
- 1st Qu.:4.100  
- Median :4.400  
- Mean   :4.262  
- 3rd Qu.:4.600  
- Max.   :5.000  
-```
-- Summary <br>
-แอปพลิเคชั่นที่มีค่าใช้จ่าย  
-     - มีค่าน้อยสุดที่มีของ Rating คือ 1
-     - 1st Qualtile ของ Rating
-     - มัธยฐาน ของ Rating คือ 4.4
-     - ค่าเฉลี่ยของ Rating คือ 4.262
-     - 3rd Qualtile ของ Rating คือ 4.6 
-     - ค่าสูงสุดของ Rating คือ 5 
+## Question 2: XXXX
 
 ## Question 3: หาแอปพลิเคชั่นที่มียอดรีวิวสูงสุดของกลุ่มฟรีและที่มีราคา?
 ```
