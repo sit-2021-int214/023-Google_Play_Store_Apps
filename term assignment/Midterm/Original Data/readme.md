@@ -1,6 +1,6 @@
 # Loading Library and dataset
 
-Dataset from [SAT_original.csv](https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/SAT_original.csv)
+Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 
 ## Install Package
 
