@@ -6,6 +6,13 @@ Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 The Google Play Store Apps is very diverse. In terms of price, reviews, content ratings, genres, and more, we want to bring interesting information to everyone.
 We all desire to use an app with the best features.
 
+
+## Table of Contents
+1. [Original Data](./term%20assignment/Midterm/Original%20Data)
+1. [Exploratory Data Analysis](./term%20assignment/Midterm/Explore%20Data)
+2. [Cleaning Data](./term%20assignment/Midterm/Cleaning%20Data)
+4. [Data Visualization]()`Final Assignment`
+
 ## Objective
 
 กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
@@ -27,14 +34,6 @@ We all desire to use an app with the best features.
 - R Language
 - R Studio Desktop
 
-## Process
-
-## Table of Contents
-
-1. [Exploratory Data Analysis](./term%20assignment/Midterm/Explore%20Data)
-2. [Cleaning Data](./term%20assignment/Midterm/Cleaning%20Data)
-3. [Original Data](./term%20assignment/Midterm/Original%20Data)
-4. [Data Visualization]()`Final Assignment`
 
 ## Resources
 
