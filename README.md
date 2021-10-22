@@ -46,6 +46,7 @@ We all desire to use an app with the best features.
 ### References
 - [Google Play Store Apps Dataset](https://www.kaggle.com/lava18/google-play-store-apps)
 - [Statistics globe](https://statisticsglobe.com/mode-in-r-programming-example)
+- [Removing partial duplicates](https://campus.datacamp.com/courses/cleaning-data-in-r/common-data-problems?ex=10)
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
