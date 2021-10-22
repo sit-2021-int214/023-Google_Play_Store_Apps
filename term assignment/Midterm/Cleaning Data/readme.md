@@ -35,7 +35,8 @@ Result:
 
 ทำการลบข้อมูลที่ซ้ำออก
 ```
-ggp <- ggp %>% distinct()
+## remove duplicated
+ggp <- ggp %>% distinct(App,Category, .keep_all = TRUE)
 ```
 
 ตรวจสอบซ้ำอีกรอบ
