@@ -66,6 +66,6 @@ Result:
 9 ROBLOX   FAMILY    4.5 4443407  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
 ```
 Explain
-จะเห็นว่ามีหลาย row ที่ App ชื่อว่า ROBLOX ซึ่งแตกต่างกันที่ Reviews กับ Category
-หมายความว่า App 1 App อาจจะอยู่ได้หลาย Category เพราะฉะนั้นเราจะไม่ clean ให้ App อยู่ใน Category เดียว
-แต่จะทำให้ App ชื่อเดียวกัน อยุ่ได้หลาย Category แต่จะมีชื่อเดียวกันอยู่ได้แค่ตัวเดียวต่อ 1 Category
+- จะเห็นว่ามีหลาย row ที่ App ชื่อว่า ROBLOX ซึ่งแตกต่างกันที่ Reviews กับ Category
+- หมายความว่า App 1 App อาจจะอยู่ได้หลาย Category เพราะฉะนั้นเราจะไม่ clean ให้ App อยู่ใน Category เดียว
+- แต่จะทำให้ App ชื่อเดียวกัน อยุ่ได้หลาย Category แต่จะมีชื่อเดียวกันอยู่ได้แค่ตัวเดียวต่อ 1 Category
