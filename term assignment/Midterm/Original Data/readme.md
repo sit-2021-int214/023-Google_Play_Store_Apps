@@ -10,6 +10,7 @@ install.packages("readr")
 install.packages("assertive")
 install.packages("stringr")
 install.packages("dplyr")
+install.packages("ggplot2")
 ```
 
 ## Loding Library
@@ -20,6 +21,7 @@ library(dplyr)
 library(readr)      # A fast and friendly way to read rectangular data
 library(stringr)    # Character manipulation
 library(assertive)  # Readable check functions to ensure code integrity
+library(ggplot2)
 ```
 
 ## Loding Dataset
