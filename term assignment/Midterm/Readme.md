@@ -45,7 +45,6 @@ Result:
 ```
        App  Reviews
 1 Facebook 78158306
-
 ```
 กลุ่มมีราคา
 ```
