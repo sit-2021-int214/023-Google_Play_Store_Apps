@@ -103,7 +103,7 @@ Result:
 จะเห็นว่าแอปพลิเคชันประเภท Family มีออกมามากที่สุด
 
 
-## Question 6: ให้ทำกราฟแสดงความสัมพันธ์ของ Ratiog และ Paid Apps ?
+## Question 6: ให้ทำกราฟแสดงความสัมพันธ์ของ Rating และ Paid Apps ?
 ```
 plot <- ggp %>% 
   filter(Price != 0 ) %>% 
