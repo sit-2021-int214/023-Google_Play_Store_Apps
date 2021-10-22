@@ -29,7 +29,7 @@ $ Android.Ver    <chr> "4.0.3 and up", "4.0.3 and up", "4.0.3 and up", "4.2 and 
 
 Explain
 
-จะเห็นว่ามีข้อมูลอยู่ 10,841 obeservation
+จะเห็นว่ามีข้อมูลอยู่ 10,841 observation
 และมีตัวแปร 13 คอลัมน์
 - APP(chr) ตัวแปรชื่อแอปพลิเคชั่น
 - Category(chr) หมวดหมูแอปพลิเคชั่น
