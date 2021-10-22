@@ -1,42 +1,29 @@
 # Cleaning Data
 ## Step 0: [Loading Library and dataset](./../Original%20Data#loading-library-and-dataset)
 ## Step 1: Remove Duplicate Data && remove Free Applications;
-ตรวจสอบดูว่ามีข้อมูลซ้ำหรือไป
+ตรวจสอบดูว่ามีข้อมูลที่ชื่อ App และ Category ซ้ำกันหรือไป
 ```
-ggp %>% filter(duplicated(ggp)) %>% head(10)
-```
-
-Result:
-
-```
-                            App Category Rating Reviews               Size    Installs Type Price Content.Rating   Genres      Last.Updated        Current.Ver        Android.Ver
-1  Quick PDF Scanner + OCR FREE BUSINESS    4.2   80805 Varies with device  5,000,000+ Free     0       Everyone Business February 26, 2018 Varies with device       4.0.3 and up
-2                           Box BUSINESS    4.2  159872 Varies with device 10,000,000+ Free     0       Everyone Business     July 31, 2018 Varies with device Varies with device
-3            Google My Business BUSINESS    4.4   70991 Varies with device  5,000,000+ Free     0       Everyone Business     July 24, 2018   2.19.0.204537701         4.4 and up
-4           ZOOM Cloud Meetings BUSINESS    4.4   31614                37M 10,000,000+ Free     0       Everyone Business     July 20, 2018     4.1.28165.0716         4.0 and up
-5     join.me - Simple Meetings BUSINESS    4.0    6989 Varies with device  1,000,000+ Free     0       Everyone Business     July 16, 2018          4.3.0.508         4.4 and up
-6                           Box BUSINESS    4.2  159872 Varies with device 10,000,000+ Free     0       Everyone Business     July 31, 2018 Varies with device Varies with device
-7                      Zenefits BUSINESS    4.2     296                14M     50,000+ Free     0       Everyone Business     June 15, 2018              3.2.1         4.1 and up
-8                    Google Ads BUSINESS    4.3   29313                20M  5,000,000+ Free     0       Everyone Business     July 30, 2018             1.12.0       4.0.3 and up
-9            Google My Business BUSINESS    4.4   70991 Varies with device  5,000,000+ Free     0       Everyone Business     July 24, 2018   2.19.0.204537701         4.4 and up
-10                        Slack BUSINESS    4.4   51507 Varies with device  5,000,000+ Free     0       Everyone Business    August 2, 2018 Varies with device Varies with device
-```
-จะเห็นว่ามีข้อมูลที่ซ้ำกันแต่เราหยิบมาแค่ 10 ตัว
-
-ดูว่ามีจำนวนกี่ตัว
-```
-ggp %>% filter(duplicated(ggp)) %>% count()
+ggp %>% count(App,Category) %>% filter(n>1) %>% head(10)
 ```
 
 Result:
-```
-    n
-1 483
-```
 
-จะเห็นว่ามีข้อมูลที่ซ้ำกัน 483 rows
+```
+                               App           Category n
+1            10 Best Foods for You HEALTH_AND_FITNESS 2
+2       1800 Contacts - Lens Store            MEDICAL 2
+3       2017 EMRA Antibiotic Guide            MEDICAL 2
+4     21-Day Meditation Experience HEALTH_AND_FITNESS 2
+5          365Scores - Live Scores             SPORTS 2
+6           420 BZ Budeze Delivery            MEDICAL 2
+7                      8 Ball Pool               GAME 6
+8     8fit Workouts & Meal Planner HEALTH_AND_FITNESS 2
+9  95Live -SG#1 Live Streaming App             DATING 2
+10         A Manual of Acupuncture            MEDICAL 2
+```
+จะเห็นว่ามีข้อมูลที่ซ้ำกันแต่เราหยิบมาดูแค่ 10 ตัว
 
-ทำการลบข้อมูลที่ซ้ำออก
+ทำการลบข้อมูลที่ซ้ำกันทั้งชื่อ App และ Category ออก
 ```
 ## remove duplicated
 ggp <- ggp %>% distinct(App,Category, .keep_all = TRUE)
@@ -44,15 +31,14 @@ ggp <- ggp %>% distinct(App,Category, .keep_all = TRUE)
 
 ตรวจสอบซ้ำอีกรอบ
 ```
-ggp %>% filter(duplicated(ggp))
+ggp %>% count(App,Category) %>% filter(n>1) %>% head(10)
 ```
 
 Result:
 
 ```
-[1] App            Category       Rating         Reviews        Size           Installs       Type          
- [8] Price          Content.Rating Genres         Last.Updated   Current.Ver    Android.Ver   
-<0 rows> (or 0-length row.names)
+  n
+1 0
 ```
 จะเห็นว่าไม่มีข้อมูลที่ซ้ำกันแล้ว
 
