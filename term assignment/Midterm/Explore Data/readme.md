@@ -46,3 +46,26 @@ Explain
 - Last.Updated(chr) อัปเดตครั้งล่าสุด
 - Current.Ver(chr) เวอร์ชั่นปัจจุบัน
 - Android.Ver(chr) Android เวอร์ชั่น
+
+## Data Analyze
+ลองหยิบแอพที่มีชื่อ ROBLOX ออกมาดู
+```
+ggp %>% filter(App=="ROBLOX")
+```
+Result:
+```
+     App Category Rating Reviews Size     Installs Type Price Content.Rating                       Genres  Last.Updated  Current.Ver Android.Ver
+1 ROBLOX     GAME    4.5 4447388  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+2 ROBLOX     GAME    4.5 4447346  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+3 ROBLOX     GAME    4.5 4448791  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+4 ROBLOX     GAME    4.5 4449882  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+5 ROBLOX     GAME    4.5 4449910  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+6 ROBLOX   FAMILY    4.5 4449910  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+7 ROBLOX   FAMILY    4.5 4450855  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+8 ROBLOX   FAMILY    4.5 4450890  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+9 ROBLOX   FAMILY    4.5 4443407  67M 100,000,000+ Free     0   Everyone 10+ Adventure;Action & Adventure July 31, 2018 2.347.225742  4.1 and up
+```
+Explain
+จะเห็นว่ามีหลาย row ที่ App ชื่อว่า ROBLOX ซึ่งแตกต่างกันที่ Reviews กับ Category
+หมายความว่า App 1 App อาจจะอยู่ได้หลาย Category เพราะฉะนั้นเราจะไม่ clean ให้ App อยู่ใน Category เดียว
+แต่จะทำให้ App ชื่อเดียวกัน อยุ่ได้หลาย Category แต่จะมีชื่อเดียวกันอยู่ได้แค่ตัวเดียวต่อ 1 Category
