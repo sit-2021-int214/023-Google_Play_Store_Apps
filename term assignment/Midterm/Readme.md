@@ -34,6 +34,7 @@ Result:
 
 
 ## Question 3: หาแอปพลิเคชั่นที่มียอดรีวิวสูงสุดของกลุ่มฟรีและที่มีราคา?
+กลุ่มฟรี
 ```
 ggp %>% filter(Reviews == max(ggp %>% filter(Price == 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
 ```
@@ -42,6 +43,7 @@ Result:
        App  Reviews
 1 Facebook 78158306
 ```
+กลุ่มมีราคา
 ```
 ggp %>% filter(Reviews == max(ggp %>% filter(Price != 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
 ```
