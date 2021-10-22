@@ -94,3 +94,19 @@ Result:
 - Summary <br>
 กราฟแสดงจำนวนแอปพลิเคชั่นแต่ละ Category
 
+
+## Question 6: ให้ทำกราฟแสดงความสัมพันธ์ของ Ratiog และ Paid Apps ?
+```
+plot <- ggp %>% 
+  filter(Price != 0 ) %>% 
+  ggplot(aes(x=Rating,y=Price)) + ggtitle("Rating and Paid Apps Relations") + geom_point(aes(color=Price))
+
+plot
+```
+Result:
+
+![Rating and Paid Apps Relations](images/Rating and Paid Apps Relations.png)
+
+
+- Summary <br>
+กราฟแสดงความสัมพันธ์ของ Ratiog และ Paid Apps
