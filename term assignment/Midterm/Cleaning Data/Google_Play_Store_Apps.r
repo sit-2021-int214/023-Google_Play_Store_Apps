@@ -16,10 +16,10 @@ ggp <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/023-Google_Pl
 
 # Cleaning Data
 ## Remove Duplicate Data && remove Free Applications;
-ggp %>% filter(duplicated(ggp))
-ggp <- distinct(ggp)
-ggp <- ggp %>% distinct()
-ggp %>%  filter(Price != 0)  %>% select(App,Price)
+ggp %>% count(App,Category) %>% filter(n>1) %>% head(10)
+ggp <- ggp %>% distinct(App,Category, .keep_all = TRUE)
+ggp %>% count(App,Category) %>% filter(n>1) %>% head(10)
+
 ## Change Reviews, Price datatype from chr to numeric
 
 ggp$Reviews <- ggp$Reviews %>% as.numeric
