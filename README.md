@@ -39,7 +39,7 @@ We all desire to use an app with the best features.
 
 ### Important Files in Repository
 
-- [Google Play Store Apps](./term%20assignment/Midterm/Explore%20Data/explore.R) : Exploratory Data Analysis
+- [Google Play Store Apps_Explore](./term%20assignment/Midterm/Explore%20Data/explore.R) : Exploratory Data Analysis
 - [Google Play Store Apps_Cleaing](./term%20assignment/Midterm/Cleaning%20Data/Cleaning.R) : Cleaning Data
 - [Google Play Store Apps_Descriptive](./term%20assignment/Midterm/RScript.R): Descriptive
 - [Google Play Store Apps_Original](./term%20assignment/Midterm/Original%20Data/Google_Play_Store_Apps_Original.csv): Original Dataset
