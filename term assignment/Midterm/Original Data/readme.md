@@ -5,6 +5,7 @@ Datasets from: https://www.kaggle.com/lava18/google-play-store-apps
 ## Install Package
 
 ```
+install.packages("DescTools")
 install.packages("readr")
 install.packages("assertive")
 install.packages("stringr")
