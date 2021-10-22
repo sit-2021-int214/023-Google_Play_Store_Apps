@@ -105,7 +105,7 @@ plot
 ```
 Result:
 
-![Rating and Paid Apps Relations](images/Rating and Paid Apps Relations.png)
+![Rating_and_Paid_Apps_Relations](images/Rating and Paid Apps Relations.png)
 
 
 - Summary <br>
