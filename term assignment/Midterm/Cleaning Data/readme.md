@@ -21,6 +21,8 @@ Result:
 9            Google My Business BUSINESS    4.4   70991 Varies with device  5,000,000+ Free     0       Everyone Business     July 24, 2018   2.19.0.204537701         4.4 and up
 10                        Slack BUSINESS    4.4   51507 Varies with device  5,000,000+ Free     0       Everyone Business    August 2, 2018 Varies with device Varies with device
 ```
+จะเห็นว่ามีข้อมูลที่ซ้ำกันแต่เราหยิบมาแค่ 10 ตัว
+
 ดูว่ามีจำนวนกี่ตัว
 ```
 ggp %>% filter(duplicated(ggp)) %>% count()
