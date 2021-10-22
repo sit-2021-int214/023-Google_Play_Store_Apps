@@ -78,3 +78,18 @@ Tools
 - Summary <br>
 Genre แอปพลิเคชั่นที่มีจำนวนเยอะที่สุดคือ Tools มีจำนวนแอปพลิเคชั่น 842
 
+## Question 5: นับจำนวนของแอปพลิเคชั่นแต่ละประเภทโดยแสดงผลในรูปของกราฟ ?
+```
+bar <- ggp %>% 
+  ggplot(aes(y=Category)) + geom_bar(aes(color=Category))
+
+bar
+```
+Result:
+
+![Category](images/Category.png)
+
+
+- Summary <br>
+กราฟแสดงจำนวนแอปพลิเคชั่นแต่ละ Category
+
