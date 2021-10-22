@@ -1,7 +1,7 @@
 # Explore Data
 Dataset from [Google_Play_Store_Apps_Original.csv](https://raw.githubusercontent.com/sit-2021-int214/023-Google_Play_Store_Apps/main/term%20assignment/Midterm/Original%20Data/Google_Play_Store_Apps_Original.csv)
 
-[Loading Library and dataset](./../Original%20Data#loading-library-and-dataset)
+## [Loading Library and dataset](./../Original%20Data#loading-library-and-dataset)
 
 ## How many observation of this dataset (before cleaning) ?
 
