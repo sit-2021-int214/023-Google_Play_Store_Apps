@@ -1,5 +1,5 @@
 # Cleaning Data
-## (Loading Library and dataset)[../Original%20Data#loading-library-and-dataset]
+## (Loading Library and dataset)[https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/tree/main/term%20assignment/Midterm/Original%20Data#loading-library-and-dataset]
 ## Step 1: Remove Duplicate Data && remove Free Applications;
 ตรวจสอบดูว่ามีข้อมูลซ้ำหรือไป
 ```
