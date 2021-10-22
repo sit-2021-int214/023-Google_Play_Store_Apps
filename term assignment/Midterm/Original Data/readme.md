@@ -14,6 +14,7 @@ install.packages("dplyr")
 ## Loding Library
 
 ```
+library(DescTools)
 library(dplyr)
 library(readr)      # A fast and friendly way to read rectangular data
 library(stringr)    # Character manipulation
