@@ -45,7 +45,7 @@ Result:
 ## Question 3: หาแอปพลิเคชั่นที่มียอดรีวิวสูงสุดของกลุ่มฟรีและที่มีราคา?
 กลุ่มฟรี
 ```
-ggp %>% filter(Reviews == max(ggp %>% filter(Price == 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
+gApp %>% filter(Reviews == max(ggp %>% filter(Price == 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
 ```
 Result:
 ```
@@ -54,7 +54,7 @@ Result:
 ```
 กลุ่มมีราคา
 ```
-ggp %>% filter(Reviews == max(ggp %>% filter(Price != 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
+gApp %>% filter(Reviews == max(ggp %>% filter(Price != 0) %>% select(Reviews),na.rm = TRUE)) %>% select(App, Reviews)
 ```
 Result:
 ```
