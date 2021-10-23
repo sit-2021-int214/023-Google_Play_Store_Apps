@@ -190,13 +190,13 @@ Result: แสดงค่าสูงสุดของหนังสือ
 ```
 
 ## Part 4: Visualization with GGplot2
-### 1.) Graph relation between Rating and Reviews
+### 1.) Graph relation between Rating and Price Where Review > 0
 
 ```
- scat_plot0 <- book %>% 
- filter(Reviews <= 2000 ) %>% 
- ggplot(aes(x=Rating,y=Reviews)) + geom_point(aes(color=Type))
- scat_plot0
+scat_plot0 <- book %>% 
+  filter(Reviews>0) %>% 
+  ggplot(aes(x=Rating,y=Price)) + geom_point(aes(color=Type))
+scat_plot0
 ```
 Result:
 
