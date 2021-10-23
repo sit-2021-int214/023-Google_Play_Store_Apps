@@ -17,13 +17,18 @@ Choose Dataset:
 ## Part 1: Explore the dataset
 
 ```
+# Library
 library(dplyr)
 library(readr)
 
+# Dataset
 book <- read.csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv")
 ```
 In this dataset has
-
+```
+glimpse(book)
+```
+Result:
 ```
 Rows: 271
 Columns: 7
@@ -63,27 +68,18 @@ summary(book)
 - Function `filter()` It using for filter columns
 
 ```
-starwars %>% 
-  select(name,height) %>%
-  filter(height > 20)
+book %>% filter(Price==book$Price%>%max())
 ```
 
 ```
-# A tibble: 81 x 2
-   name               height
-   <chr>               <int>
- 1 Luke Skywalker        172
- 2 C-3PO                 167
- 3 R2-D2                  96
- 4 Darth Vader           202
- 5 Leia Organa           150
- 6 Owen Lars             178
- 7 Beru Whitesun lars    165
- 8 R5-D4                  97
- 9 Biggs Darklighter     183
-10 Obi-Wan Kenobi        182
-# ... with 71 more rows
+  Rating Reviews                            Book_title
+1   3.84       5 A Discipline for Software Engineering
+                                                                                                                                                                                                                                                                                                                                                                                      Description
+1 Designed to help individual programmers develop software more effectively and successfully, this book presents a scaled-down version of Humphrey's popular methods for managing the software process. It: presents concepts and methods for a disciplined software engineering process for individual programmers, following the Capability Maturity Model (CMM); scales down industria ...more
+  Number_Of_Pages      Type  Price
+1             789 Hardcover 235.65
 ```
+หาหนังสือที่มีราคาสูงที่สุดจะได้หนังสือชื่อ A Discipline for Software Engineering
 
 ## Part 3: Transform data with dplyr and finding insight the data
 
