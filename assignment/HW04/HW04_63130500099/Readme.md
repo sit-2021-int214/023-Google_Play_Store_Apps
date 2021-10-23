@@ -200,7 +200,7 @@ scat_plot0
 ```
 Result:
 
-![scat_plot0](Rplot1.png)
+![scat_plot0](Rplott1.png)
 
 ### 2.) The chart shows the number of types.
 
