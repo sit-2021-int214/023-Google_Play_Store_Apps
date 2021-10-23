@@ -190,7 +190,7 @@ Result: แสดงค่าสูงสุดของหนังสือ
 ```
 
 ## Part 4: Visualization with GGplot2
-### 1.) Graph relation between Rating and Price Where Review > 0
+### 1.) Graph relation between Rating and Price Where Review > 1
 
 ```
 scat_plot0 <- book %>% 
