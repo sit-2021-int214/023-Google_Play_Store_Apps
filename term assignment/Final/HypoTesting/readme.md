@@ -74,4 +74,4 @@ critical value approach : "Accept H0"
 ```
 
 ### Step 6 : Conclusion
-แอปพลิเคชั่นมากกว่า 95 % มี Rating 4 ขึ้นไปเป็นที่ยอมรับได้
+Rating ของ Application โดยเฉลี่ยมีค่าอยู่ที่ 4 หรือมากกว่าโดยที่ alpha คือ 0.05
