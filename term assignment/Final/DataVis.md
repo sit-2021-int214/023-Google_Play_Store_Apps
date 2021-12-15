@@ -8,13 +8,13 @@
 ![image](https://user-images.githubusercontent.com/68822792/146217162-9e88c972-1d48-473a-9c6d-0d89ab9bd8ef.png)
 ![image](https://user-images.githubusercontent.com/68822792/146217016-c5dafb43-9d10-4dda-a0a0-71eb331384b6.png)
 ![image](https://user-images.githubusercontent.com/68822792/146217079-f8e91056-fb7d-4f70-9396-20b499f47d70.png)
-![image](https://user-images.githubusercontent.com/68822792/146217100-525d854f-02fd-4cc9-a943-19c041087639.png)
 
 
 ### จากการใช้ Bi tool ในการสำรวจข้อมูล ทำให้ทราบข้อมูลดังนี้ 
 
-1. จากกราฟ xxxxxxxxxxxxxxxxxxxxxx
-2.
-3.
-4.
-5.
+1. จากกราฟ Max of Reviews by Type ทำให้รู้ว่าใน Type Free แอปพลิเคชั่นที่มียอดรีวิวสูงสุดคือ เกม Clash of Clan ส่วน Paid แอปพลิเคชั่นคือ เกม Minecraft โดยทั้ง 2 แอปพลิเคชั่นเป็นเกมทั้งคู่
+2. จากกราฟ Count of Genre by Genre ทำให้รู้ว่า แอปพลิเคชั่นส่วนใหญ่เป็นประเภท Tools
+3. จากตาราง Rating และ Count ทำให้ทราบจำนวน Rating ของแอปพลิเคชั่น
+4. จากตาราง Count of Application by Category ทำให้รู้ว่า แอปพลิเคชั่นส่วนใหญ่อยู่ในหมวดหมู่ Family
+5. จากกราฟ Rating and Price ทำให้รู้ว่า ราคาไม่ได้ทำให้ได้รับ Rating สูงกว่าแอปพลิเคชั่นต่ำหรือฟรีแต่อย่างใด
+6. จากกราฟ Count of Application by Type ทำให้รู้ว่าแอปพลิเคชั่นส่วนใหญ่เป็นแบบฟรี
