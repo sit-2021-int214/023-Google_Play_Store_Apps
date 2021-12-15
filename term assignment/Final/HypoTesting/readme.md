@@ -21,7 +21,7 @@
 5. Compare P-value with alpha or z/t with zalpha/talpha
 6. Conclusion
 ## Define question
-xxxxxxxxxxx
+Rating ของแอปพลิเคชั่นทั้งหมดต้องมากกว่า 4 โดย Alpha = 0.05
 
 
 ### Step 0 : Assign variables
@@ -74,4 +74,4 @@ critical value approach : "Accept H0"
 ```
 
 ### Step 6 : Conclusion
-xxxxxxxxxxxxxxxxxxxxxxxxx
+แอปพลิเคชั่นมากกว่า 95 % มี Rating 4 ขึ้นไปเป็นที่ยอมรับได้
