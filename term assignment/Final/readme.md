@@ -1,2 +1,2 @@
-###Data Visualization [Click](./DataVis)
-###Hypothesis Testing [Click](./HypoTesting)
+### Data Visualization [Click](./DataVis) <br>
+### Hypothesis Testing [Click](./HypoTesting)
