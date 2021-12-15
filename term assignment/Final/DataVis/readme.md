@@ -1,5 +1,5 @@
 # Data Visualization (BI Tools)
-### Dashboard: [1](https://app.powerbi.com/groups/me/reports/0ed8be24-6c32-41a5-a05e-52373658b23f/ReportSection?ctid=6f4432dc-20d2-441d-b1db-ac3380ba633d), [2](https://app.powerbi.com/view?r=eyJrIjoiMDA3MGU3NGItNzVhOS00NjZjLTgyMjUtNTc2NWU4ODViMGRjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
+### Dashboard: [1](https://app.powerbi.com/view?r=eyJrIjoiN2FkMzk3ZDMtYTJkOC00YjNjLTkwOTMtYzkxYTBhN2M0MjQ2IiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D), [2](https://app.powerbi.com/view?r=eyJrIjoiMDA3MGU3NGItNzVhOS00NjZjLTgyMjUtNTc2NWU4ODViMGRjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
 
 ![image](https://user-images.githubusercontent.com/68822792/146216903-f69bb26a-1c67-4d85-b5fc-bd986bd4f45a.png)
 ![image](https://user-images.githubusercontent.com/68822792/146216951-fcc7b162-0594-4bc7-b649-a2d410178abc.png)
