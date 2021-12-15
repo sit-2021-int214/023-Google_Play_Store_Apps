@@ -11,8 +11,9 @@ We all desire to use an app with the best features.
 1. [Original Data](./term%20assignment/Midterm/Original%20Data)
 1. [Exploratory Data Analysis](./term%20assignment/Midterm/Explore%20Data)
 2. [Cleaning Data](./term%20assignment/Midterm/Cleaning%20Data)
-3. [Data Analysis with Descriptive Stat](https://github.com/sit-2021-int214/023-Google_Play_Store_Apps/tree/main/term%20assignment/Midterm#answer-to-all-defined-question)
-4. [Data Visualization]()`Final Assignment`
+3. [Data Analysis with Descriptive Stat](./term%20assignment/Midterm#answer-to-all-defined-question)
+4. [Data Visualization](./term%20assignment/Final/DataVis)`Final Assignment`
+5. [Hypothesis Testing](./term%20assignment/Final/HypoTesting)`Final Assignment`
 
 ## Objective
 
